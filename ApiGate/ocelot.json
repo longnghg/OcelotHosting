@@ -2919,7 +2919,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/vouchers-history",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Get" ]
     },
 
 
