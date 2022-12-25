@@ -10,7 +10,10 @@
         }
       ],
       "UpstreamPathTemplate": "/travelhub",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //Notification
     {
@@ -23,7 +26,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Notification/list-notification",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Notification/update-isSeen-notification",
@@ -35,7 +41,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Notification/update-isSeen-notification",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Notification/delete-notification",
@@ -47,7 +56,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Notification/delete-notification",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     //Statistic
@@ -61,7 +73,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-date",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -74,7 +89,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-total-tourbooking-by-date",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -87,7 +105,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-year",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -100,7 +121,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-month",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -113,7 +137,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-week",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -126,7 +153,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-week-by-year",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/saving-current-week",
@@ -138,7 +168,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/saving-current-week",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/saving-tourbooking-finished",
@@ -150,7 +183,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/saving-tourbooking-finished",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //PAYMENT
     {
@@ -164,7 +200,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Payment/list-payment",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -177,7 +216,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Payment/create-payment",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //Pay
     {
@@ -190,7 +232,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Pay/checkout-paypal",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Pay/check-paypal",
@@ -202,7 +247,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Pay/check-paypal",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Pay/checkout-vnpay",
@@ -214,7 +262,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Pay/checkout-vnpay",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Pay/callback-vnpay",
@@ -226,7 +277,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Pay/callback-vnpay",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //Tourbooking
     {
@@ -239,7 +293,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/do-payment",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -252,7 +309,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/list-tourbooking-by-date",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -265,7 +325,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/list-tourbooking",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -278,7 +341,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/create-tourbooking",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
 
@@ -292,7 +358,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/tour-booking-by-id",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
 
@@ -306,7 +375,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/payment-changed",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -319,7 +391,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/tour-booking-by-booking-no",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -332,7 +407,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/cancel-booking",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -345,7 +423,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/restore-booking",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -358,7 +439,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/statistic-tourbooking",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -371,7 +455,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/check-called",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -384,7 +471,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/search-TourBooking",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -397,7 +487,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/update-tourBooking-status",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -410,7 +503,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/adm-update-tourBooking-status",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -423,7 +519,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/update-tourBooking-finished",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -436,7 +535,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/check-in-booking",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -449,7 +551,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/list-statistic-paid-not-checkedin",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -462,7 +567,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/TourBooking/cus-search-bookingNo",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //END TOURBOOKING
 
@@ -477,7 +585,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/token-guess",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [ "GET" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -490,7 +601,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/login-employee",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -503,7 +617,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/login-customer",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -516,7 +633,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/logout-customer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -529,7 +649,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/logout-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -542,7 +665,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/change-pass-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
 
@@ -556,7 +682,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/forgot-pass-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -569,7 +698,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/block-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -582,7 +714,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/block-employee",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -595,7 +730,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/change-pass-employee",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -608,7 +746,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Authentication/forgot-pass-employee",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //end authentication
 
@@ -623,7 +764,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/CostTour/list-cost-tour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -636,7 +780,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/CostTour/detail-cost-tour-idSchedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -649,7 +796,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/CostTour/create-cost-tour",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
 
@@ -663,7 +813,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/CostTour/update-cost-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //end cost tour
 
@@ -678,7 +831,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/create-customer",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -691,7 +847,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/list-customer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
 
@@ -705,7 +864,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/detail-customer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -718,7 +880,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/list-history-booking-bycustomer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -731,7 +896,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/cus-vote-rating",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -744,7 +912,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/update-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -757,7 +928,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/send-otp",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
 
     {
@@ -770,7 +944,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/customer/search-customer",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     //end customer
 
@@ -785,7 +962,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/list-car",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AddHeaders": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "DownstreamPathTemplate": "/api/car/list-car-and-tour-guide-free",
@@ -797,7 +977,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/list-car-and-tour-guide-free",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/car/list-selectbox-car",
@@ -809,7 +989,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/list-selectbox-car",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/car/list-selectbox-car-update",
@@ -821,7 +1001,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/list-selectbox-car-update",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/carstatistic-car",
@@ -833,7 +1013,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/carstatistic-car",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/car/create-car",
@@ -845,7 +1025,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/create-car",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/update-car",
@@ -857,7 +1037,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/update-car",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/car/delete-car",
@@ -869,7 +1049,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/delete-car",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -882,7 +1062,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/restore-car",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -895,7 +1075,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/search-car",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -908,7 +1088,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/car/list-schedule-of-car",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //end car
 
@@ -923,7 +1103,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/create-customer",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -936,7 +1116,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/list-customer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -949,7 +1129,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/list-history-booking-bycustomer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -962,7 +1142,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/send-otp",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -975,7 +1155,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/detail-customer",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -988,7 +1168,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/update-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1001,7 +1181,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/cus-vote-rating",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1014,7 +1194,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/search-customer",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1027,7 +1207,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Customer/block-customer",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //end customer
@@ -1043,7 +1223,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/list-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Employee/search-employee",
@@ -1055,7 +1235,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/search-employee",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1068,7 +1248,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/create-employee",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1081,7 +1261,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/update-employee",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1094,7 +1274,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/delete-employee",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1107,7 +1287,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/restore-employee",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1120,7 +1300,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/detail-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1134,7 +1314,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/statistic-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1147,7 +1327,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/send-file",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1161,7 +1341,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/list-selectbox-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1175,7 +1355,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/list-selectbox-employee-update",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1188,7 +1368,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/employee-s",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1201,7 +1381,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/list-statistic-total-emp",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1214,7 +1394,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Employee/list-schedule-of-employee",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1231,7 +1411,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Image/list-image-idTour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1244,7 +1424,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Image/list-image-banner",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1257,7 +1437,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Image/create-image-idTour",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1270,7 +1450,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Image/delete-image-idTour",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END IMAGE
 
@@ -1285,7 +1465,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/list-province",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1298,7 +1478,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/list-district",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1311,7 +1491,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/list-ward",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1324,7 +1504,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/search-province",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1337,7 +1517,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/search-district",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1350,7 +1530,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/search-ward",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1363,7 +1543,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/create-province",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1376,7 +1556,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/create-district",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1390,7 +1570,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/create-ward",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1403,7 +1583,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/update-province",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1416,7 +1596,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/update-district",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1429,7 +1609,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/update-ward",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1442,7 +1622,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/delete-province",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1455,7 +1635,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/delete-district",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1468,7 +1648,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Location/delete-ward",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //END LOCATION
@@ -1484,7 +1664,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Log/search-log-by-type",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1497,7 +1677,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Log/detail-log",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //end log
@@ -1513,7 +1693,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/UploadBanner",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1526,7 +1706,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/list-banner",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1539,7 +1719,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/delete-banner",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1552,7 +1732,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/gets-banner-all",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1565,7 +1745,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/weather-forecast",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1578,7 +1758,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/translate-language",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1591,7 +1771,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/map-location",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1604,7 +1784,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/News/search-banner",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END NEWS
 
@@ -1623,7 +1803,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/list-promotion",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1636,7 +1816,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/list-promotion-exists",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1649,7 +1829,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/statistic",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1662,7 +1842,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/list-promotion-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1675,7 +1855,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/create-promotion",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1688,7 +1868,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/update-promotion",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1701,7 +1881,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/approve-promotion",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1714,7 +1894,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/refuse-promotion",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1727,7 +1907,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/delete-promotion",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1740,7 +1920,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/restore-promotion",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1753,7 +1933,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/search-promotion",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END PROMOTION
 
@@ -1768,7 +1948,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Review/list-review",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1781,7 +1961,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Review/create-review",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END REVIEW
 
@@ -1797,7 +1977,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/list-role",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1811,7 +1991,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/search-role",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -1825,7 +2005,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/create-role",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1838,7 +2018,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/update-role",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1851,7 +2031,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/restore-role",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1864,7 +2044,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Role/delete-role",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //END ROLE
@@ -1880,7 +2060,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/immediately-schedule",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1893,7 +2073,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/create-schedule",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1906,7 +2086,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/update-schedule",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1919,7 +2099,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/delete-schedule",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1932,7 +2112,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/restore-schedule",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1945,7 +2125,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/approve-schedule",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1958,7 +2138,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/refused-schedule",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1971,7 +2151,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1984,7 +2164,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/detail-schedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -1997,7 +2177,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/update-promotion",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2010,7 +2190,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/automatic-promotion-for-schedule",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -2024,7 +2204,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/last-promotion-for-schedule",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2037,7 +2217,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule-idtour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2050,7 +2230,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule-idtour-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -2064,7 +2244,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/cus-search-schedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2077,7 +2257,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/cus-list-schedule-idtour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2090,7 +2270,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/cus-list-schedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2103,7 +2283,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule-promotion",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2116,7 +2296,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule-flash-sale",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2129,7 +2309,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/list-schedule-relate",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2142,7 +2322,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/search-schedule",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2155,7 +2335,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/search-schedule-waiting",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2168,7 +2348,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Schedule/cus-search-schedule-filter",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //END SCHEDULE
@@ -2184,7 +2364,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-place-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2197,7 +2377,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-place",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/create-place",
@@ -2209,7 +2389,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/create-place",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2222,7 +2402,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/update-place",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -2236,7 +2416,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/approve-place",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2249,7 +2429,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/refuse-place",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2262,7 +2442,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/delete-place",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2275,7 +2455,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/restore-place",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2288,7 +2468,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/search-hotel",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2301,7 +2481,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/search-place",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -2315,7 +2495,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/search-Restaurant",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-hotel-by-province",
@@ -2327,7 +2507,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-hotel-by-province",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-place-by-province",
@@ -2339,7 +2519,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-place-by-province",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-restaurant-by-province",
@@ -2351,7 +2531,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-restaurant-by-province",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/create-hotel",
@@ -2363,7 +2543,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/create-hotel",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-hotel",
@@ -2375,7 +2555,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-hotel",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-hotel-waiting",
@@ -2387,7 +2567,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-hotel-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/update-hotel",
@@ -2399,7 +2579,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/update-hotel",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/approve-hotel",
@@ -2411,7 +2591,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/approve-hotel",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/refuse-hotel",
@@ -2423,7 +2603,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/refuse-hotel",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/refuse-hotel",
@@ -2435,7 +2615,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/refuse-hotel",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/delete-hotel",
@@ -2447,7 +2627,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/delete-hotel",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/restore-hotel",
@@ -2459,7 +2639,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/restore-hotel",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-restaurant-waiting",
@@ -2471,7 +2651,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-restaurant-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/list-restaurant",
@@ -2483,7 +2663,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/list-restaurant",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/create-restaurant",
@@ -2495,7 +2675,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/create-restaurant",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/approve-restaurant",
@@ -2507,7 +2687,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/approve-restaurant",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/refuse-restaurant",
@@ -2519,7 +2699,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/refuse-restaurant",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/delete-restaurant",
@@ -2531,7 +2711,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/delete-restaurant",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/update-restaurant",
@@ -2543,7 +2723,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/update-restaurant",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Service/restore-restaurant",
@@ -2555,7 +2735,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Service/restore-restaurant",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END SERVICE
 
@@ -2570,7 +2750,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Timeline/create-timeline",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2583,7 +2763,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Timeline/update-timeline",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2596,7 +2776,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Timeline/delete-timeline",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2609,7 +2789,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Timeline/list-timeline",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2622,7 +2802,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Timeline/list-timeline-idSchedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END TIMELINE
 
@@ -2637,7 +2817,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/create-tour",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2650,7 +2830,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/update-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/list-tour",
@@ -2662,7 +2842,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/list-tour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/list-tour-waiting",
@@ -2674,7 +2854,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/list-tour-waiting",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/detail-tour",
@@ -2686,7 +2866,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/detail-tour",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/approve-tour",
@@ -2698,7 +2878,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/approve-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/refused-tour",
@@ -2710,7 +2890,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/refused-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/delete-tour",
@@ -2722,7 +2902,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/delete-tour",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/restore-tour",
@@ -2734,7 +2914,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/restore-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/list-tour-with-schedule",
@@ -2746,7 +2926,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/list-tour-with-schedule",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/detail-tour-by-id",
@@ -2758,7 +2938,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/detail-tour-by-id",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/list-tour-by-rating",
@@ -2770,7 +2950,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/list-tour-by-rating",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/search-complete",
@@ -2782,7 +2962,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/search-complete",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/update-rating-tour",
@@ -2794,7 +2974,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/update-rating-tour",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/search-tour",
@@ -2806,7 +2986,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/search-tour",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Tour/search-tour-waiting",
@@ -2818,7 +2998,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Tour/search-tour-waiting",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     //END TOUR
 
@@ -2833,7 +3013,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/list-voucher",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2846,7 +3026,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/create-voucher",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Voucher/update-voucher",
@@ -2858,7 +3038,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/update-voucher",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Voucher/voucher-tiket",
@@ -2870,7 +3050,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/voucher-tiket",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Voucher/delete-voucher",
@@ -2882,7 +3062,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/delete-voucher",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     {
@@ -2895,7 +3075,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/vouchers-history",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
 
@@ -2912,7 +3092,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/create-messenger",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/reply-messenger",
@@ -2924,7 +3104,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/reply-messenger",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/cus-messenger",
@@ -2936,7 +3116,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/cus-messenger",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [ "GET" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/support-messenger",
@@ -2948,7 +3128,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/support-messenger",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [ "GET" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/check-seen-messenger",
@@ -2960,7 +3140,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/check-seen-messenger",
-      "UpstreamHttpMethod": [ "PUT" ]
+      "UpstreamHttpMethod": [ "PUT" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/check-seen-messenger-cus",
@@ -2972,7 +3152,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/check-seen-messenger-cus",
-      "UpstreamHttpMethod": [ "PUT" ]
+      "UpstreamHttpMethod": [ "PUT" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Chat/update-guest-messenger",
@@ -2984,7 +3164,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Chat/update-guest-messenger",
-      "UpstreamHttpMethod": [ "PUT" ]
+      "UpstreamHttpMethod": [ "PUT" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
 
     //
@@ -2999,7 +3179,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-date",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/list-statistic-total-tourbooking-by-date",
@@ -3011,7 +3191,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-total-tourbooking-by-date",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-year",
@@ -3023,7 +3203,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-year",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-month",
@@ -3035,7 +3215,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-month",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-week",
@@ -3047,7 +3227,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-week",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     },
     {
       "DownstreamPathTemplate": "/api/Statistic/list-week-by-year",
@@ -3059,7 +3239,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-week-by-year",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],"AddHeaders": {"Access-Control-Allow-Origin": "*"}
     }
 
   ],
