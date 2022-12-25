@@ -2820,6 +2820,18 @@
       "UpstreamPathTemplate": "/api/Tour/search-tour-waiting",
       "UpstreamHttpMethod": [ "Post" ]
     },
+    {
+      "DownstreamPathTemplate": "/api/Tour/immediately-tour",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Tour/immediately-tour",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
     //END TOUR
 
     //VOUCHER
