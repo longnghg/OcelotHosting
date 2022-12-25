@@ -3096,8 +3096,20 @@
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-week-by-year",
       "UpstreamHttpMethod": [ "Get" ]
+    },
+    // comment
+    {
+      "DownstreamPathTemplate": "/api/comment/gets-comment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/comment/gets-comment",
+      "UpstreamHttpMethod": [ "Get" ]
     }
-
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://gatewayapitravelrover.azurewebsites.net"
