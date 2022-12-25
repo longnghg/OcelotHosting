@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+Ch+NpS1OHiaL40MP7jofVoN/33OJl4U03d0vE5XBUl/+ayvs9mpPcOnr+WjqK2BGsTbbzWZKkE6dTSgq4qow==",
+  "dgSpecHash": "qIz9HHylp3CIEO2NhbwWjJSS14+g8O/IJgypGJylAQyYnwy3b3U81j9sjDodSiU8L6e7pnGuEiSSNMbsDX9VvQ==",
   "success": true,
-  "projectFilePath": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj",
+  "projectFilePath": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",
@@ -31,8 +31,8 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\ocelot\\17.0.0\\ocelot.17.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\ocelot.cache.cachemanager\\17.0.0\\ocelot.cache.cachemanager.17.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\ocelot\\17.0.1\\ocelot.17.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\ocelot.cache.cachemanager\\17.0.1\\ocelot.cache.cachemanager.17.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.performancecounter\\4.5.0\\system.diagnostics.performancecounter.4.5.0.nupkg.sha512",

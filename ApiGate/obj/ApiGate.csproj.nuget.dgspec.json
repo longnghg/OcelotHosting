@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj": {}
+    "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj": {}
   },
   "projects": {
-    "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj": {
+    "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj",
+        "projectUniqueName": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj",
         "projectName": "ApiGate",
-        "projectPath": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj",
+        "projectPath": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\obj\\",
+        "outputPath": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,11 +42,11 @@
           "dependencies": {
             "Ocelot": {
               "target": "Package",
-              "version": "[17.0.0, )"
+              "version": "[17.0.1, )"
             },
             "Ocelot.Cache.CacheManager": {
               "target": "Package",
-              "version": "[17.0.0, )"
+              "version": "[17.0.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

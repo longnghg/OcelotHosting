@@ -337,7 +337,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Ocelot/17.0.0": {
+      "Ocelot/17.0.1": {
         "type": "package",
         "dependencies": {
           "FluentValidation": "9.3.0",
@@ -352,13 +352,13 @@
           "lib/net5.0/Ocelot.dll": {}
         }
       },
-      "Ocelot.Cache.CacheManager/17.0.0": {
+      "Ocelot.Cache.CacheManager/17.0.1": {
         "type": "package",
         "dependencies": {
           "CacheManager.Core": "2.0.0-beta-1629",
           "CacheManager.Microsoft.Extensions.Configuration": "2.0.0-beta-1629",
           "CacheManager.Microsoft.Extensions.Logging": "2.0.0-beta-1629",
-          "Ocelot": "17.0.0"
+          "Ocelot": "17.0.1"
         },
         "compile": {
           "lib/net5.0/Ocelot.Cache.CacheManager.dll": {}
@@ -1074,27 +1074,27 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Ocelot/17.0.0": {
-      "sha512": "z6U2Vwn+M5ghzh2LdhTJApjhW/c1yeWTVlNPknWVome7X8Z+7B0DWHkX7l0+7ZVYnGPH0iHmgPPZJKCzF0xECg==",
+    "Ocelot/17.0.1": {
+      "sha512": "1I23FR6HMJ5G4Hb3lShnFyQTvCCIdSNYg7ilANsLN18bMVLpoKKb5q71nOnWoXECtTc7vUw5d9LmDNyc71J5ZQ==",
       "type": "package",
-      "path": "ocelot/17.0.0",
+      "path": "ocelot/17.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/Ocelot.dll",
-        "ocelot.17.0.0.nupkg.sha512",
+        "ocelot.17.0.1.nupkg.sha512",
         "ocelot.nuspec"
       ]
     },
-    "Ocelot.Cache.CacheManager/17.0.0": {
-      "sha512": "euZMUEaxPqimeiA4MDQsDokNIrIlsPj4WiLCYdZA3KmVyDIjBRcma+zpOs+fe+gFifXItJiB7zgUNnSTlusfNQ==",
+    "Ocelot.Cache.CacheManager/17.0.1": {
+      "sha512": "LctQUK1k5660to/b35oKz0mRuT4sBwLlZYQQlxKlbj0SYHWqaUjTGZuHmPO2G+AwhbxD1g9QWfaxfhsprBQO0A==",
       "type": "package",
-      "path": "ocelot.cache.cachemanager/17.0.0",
+      "path": "ocelot.cache.cachemanager/17.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/Ocelot.Cache.CacheManager.dll",
-        "ocelot.cache.cachemanager.17.0.0.nupkg.sha512",
+        "ocelot.cache.cachemanager.17.0.1.nupkg.sha512",
         "ocelot.cache.cachemanager.nuspec"
       ]
     },
@@ -1618,8 +1618,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Ocelot >= 17.0.0",
-      "Ocelot.Cache.CacheManager >= 17.0.0",
+      "Ocelot >= 17.0.1",
+      "Ocelot.Cache.CacheManager >= 17.0.1",
       "System.IdentityModel.Tokens.Jwt >= 6.25.1"
     ]
   },
@@ -1629,11 +1629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj",
+      "projectUniqueName": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj",
       "projectName": "ApiGate",
-      "projectPath": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\ApiGate.csproj",
+      "projectPath": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\ApiGate.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Temp\\DoAn\\OceLotnew\\ApiGate\\ApiGate\\obj\\",
+      "outputPath": "D:\\Temp\\DoAn\\Hosting\\HostingSuccess\\HostingOcelotNew\\ApiGate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1664,11 +1664,11 @@
         "dependencies": {
           "Ocelot": {
             "target": "Package",
-            "version": "[17.0.0, )"
+            "version": "[17.0.1, )"
           },
           "Ocelot.Cache.CacheManager": {
             "target": "Package",
-            "version": "[17.0.0, )"
+            "version": "[17.0.1, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
