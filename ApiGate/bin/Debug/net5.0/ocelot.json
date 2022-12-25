@@ -479,18 +479,6 @@
       "UpstreamPathTemplate": "/api/Authentication/token-guess",
       "UpstreamHttpMethod": [ "GET" ]
     },
-    {
-      "DownstreamPathTemplate": "/api/Authentication/refresh-token",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/Authentication/refresh-token",
-      "UpstreamHttpMethod": [ "POST" ]
-    },
 
     {
       "DownstreamPathTemplate": "/api/Authentication/login-employee",
@@ -1767,18 +1755,6 @@
       "UpstreamPathTemplate": "/api/Promotion/search-promotion",
       "UpstreamHttpMethod": [ "Post" ]
     },
-    {
-      "DownstreamPathTemplate": "/api/Promotion/select-box-promotion",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/Promotion/select-box-promotion",
-      "UpstreamHttpMethod": [ "get" ]
-    },
     //END PROMOTION
 
     //REVIEW
@@ -2844,18 +2820,6 @@
       "UpstreamPathTemplate": "/api/Tour/search-tour-waiting",
       "UpstreamHttpMethod": [ "Post" ]
     },
-    {
-      "DownstreamPathTemplate": "/api/Tour/immediately-tour",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/Tour/immediately-tour",
-      "UpstreamHttpMethod": [ "Delete" ]
-    },
     //END TOUR
 
     //VOUCHER
@@ -2931,7 +2895,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Voucher/vouchers-history",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Delete" ]
     },
 
 
@@ -3096,50 +3060,10 @@
       ],
       "UpstreamPathTemplate": "/api/Statistic/list-week-by-year",
       "UpstreamHttpMethod": [ "Get" ]
-    },
-    // comment
-
-    {
-      "DownstreamPathTemplate": "/api/comment/gets-comment",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/comment/gets-comment",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-
-    {
-      "DownstreamPathTemplate": "/api/comment/create-comment",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/comment/create-comment",
-      "UpstreamHttpMethod": [ "Post" ]
-    },
-
-    {
-      "DownstreamPathTemplate": "/api/comment/delete-comment",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "rovermanagerservice.azurewebsites.net",
-          "Port": 443
-        }
-      ],
-      "UpstreamPathTemplate": "/api/comment/delete-comment",
-      "UpstreamHttpMethod": [ "Delete" ]
     }
 
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://gatewayapitravelrover.azurewebsites.net"
+    "BaseUrl": "http://localhost:44305"
   }
 }

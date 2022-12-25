@@ -88,10 +88,7 @@ D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\st
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ApiGate.RazorTargetAssemblyInfo.cache
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ApiGate.csproj.CopyComplete
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ApiGate.dll
+D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\refint\ApiGate.dll
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ApiGate.pdb
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ApiGate.genruntimeconfig.cache
 D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\obj\Debug\net5.0\ref\ApiGate.dll
-D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\bin\Debug\net5.0\ref\ApiGate.dll
-D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-D:\Temp\DoAn\Hosting\HostingSuccess\HostingOcelotNew\ApiGate\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
