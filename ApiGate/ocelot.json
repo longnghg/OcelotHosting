@@ -1755,6 +1755,18 @@
       "UpstreamPathTemplate": "/api/Promotion/search-promotion",
       "UpstreamHttpMethod": [ "Post" ]
     },
+    {
+      "DownstreamPathTemplate": "/api/Promotion/select-box-promotion",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Promotion/select-box-promotion",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
     //END PROMOTION
 
     //REVIEW
