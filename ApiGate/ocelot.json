@@ -479,6 +479,18 @@
       "UpstreamPathTemplate": "/api/Authentication/token-guess",
       "UpstreamHttpMethod": [ "GET" ]
     },
+    {
+      "DownstreamPathTemplate": "/api/Authentication/refresh-token",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Authentication/refresh-token",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
 
     {
       "DownstreamPathTemplate": "/api/Authentication/login-employee",
