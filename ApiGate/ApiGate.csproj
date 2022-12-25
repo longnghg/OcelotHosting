@@ -5,8 +5,8 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Ocelot" Version="17.0.1" />
-		<PackageReference Include="Ocelot.Cache.CacheManager" Version="17.0.1" />
+		<PackageReference Include="Ocelot" Version="17.0.0" />
+		<PackageReference Include="Ocelot.Cache.CacheManager" Version="17.0.0" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
 	</ItemGroup>
 </Project>
