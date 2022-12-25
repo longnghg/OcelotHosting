@@ -3098,6 +3098,7 @@
       "UpstreamHttpMethod": [ "Get" ]
     },
     // comment
+
     {
       "DownstreamPathTemplate": "/api/comment/gets-comment",
       "DownstreamScheme": "https",
@@ -3109,7 +3110,34 @@
       ],
       "UpstreamPathTemplate": "/api/comment/gets-comment",
       "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/comment/create-comment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/comment/create-comment",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/comment/delete-comment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/comment/delete-comment",
+      "UpstreamHttpMethod": [ "Delete" ]
     }
+
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://gatewayapitravelrover.azurewebsites.net"
