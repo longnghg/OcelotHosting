@@ -33,8 +33,8 @@
     ".NETCoreApp,Version=v5.0": {
       "ApiGate/1.0.0": {
         "dependencies": {
-          "Ocelot": "17.0.0",
-          "Ocelot.Cache.CacheManager": "17.0.0",
+          "Ocelot": "17.0.1",
+          "Ocelot.Cache.CacheManager": "17.0.1",
           "System.IdentityModel.Tokens.Jwt": "6.25.1",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -578,7 +578,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Ocelot/17.0.0": {
+      "Ocelot/17.0.1": {
         "dependencies": {
           "FluentValidation": "9.3.0",
           "Microsoft.AspNetCore.MiddlewareAnalysis": "5.0.0",
@@ -587,25 +587,25 @@
         },
         "runtime": {
           "lib/net5.0/Ocelot.dll": {
-            "assemblyVersion": "17.0.0.0",
-            "fileVersion": "17.0.0.0"
+            "assemblyVersion": "17.0.1.0",
+            "fileVersion": "17.0.1.0"
           }
         },
         "compile": {
           "lib/net5.0/Ocelot.dll": {}
         }
       },
-      "Ocelot.Cache.CacheManager/17.0.0": {
+      "Ocelot.Cache.CacheManager/17.0.1": {
         "dependencies": {
           "CacheManager.Core": "2.0.0-beta-1629",
           "CacheManager.Microsoft.Extensions.Configuration": "2.0.0-beta-1629",
           "CacheManager.Microsoft.Extensions.Logging": "2.0.0-beta-1629",
-          "Ocelot": "17.0.0"
+          "Ocelot": "17.0.1"
         },
         "runtime": {
           "lib/net5.0/Ocelot.Cache.CacheManager.dll": {
-            "assemblyVersion": "17.0.0.0",
-            "fileVersion": "17.0.0.0"
+            "assemblyVersion": "17.0.1.0",
+            "fileVersion": "17.0.1.0"
           }
         },
         "compile": {
@@ -2611,19 +2611,19 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Ocelot/17.0.0": {
+    "Ocelot/17.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-z6U2Vwn+M5ghzh2LdhTJApjhW/c1yeWTVlNPknWVome7X8Z+7B0DWHkX7l0+7ZVYnGPH0iHmgPPZJKCzF0xECg==",
-      "path": "ocelot/17.0.0",
-      "hashPath": "ocelot.17.0.0.nupkg.sha512"
+      "sha512": "sha512-1I23FR6HMJ5G4Hb3lShnFyQTvCCIdSNYg7ilANsLN18bMVLpoKKb5q71nOnWoXECtTc7vUw5d9LmDNyc71J5ZQ==",
+      "path": "ocelot/17.0.1",
+      "hashPath": "ocelot.17.0.1.nupkg.sha512"
     },
-    "Ocelot.Cache.CacheManager/17.0.0": {
+    "Ocelot.Cache.CacheManager/17.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-euZMUEaxPqimeiA4MDQsDokNIrIlsPj4WiLCYdZA3KmVyDIjBRcma+zpOs+fe+gFifXItJiB7zgUNnSTlusfNQ==",
-      "path": "ocelot.cache.cachemanager/17.0.0",
-      "hashPath": "ocelot.cache.cachemanager.17.0.0.nupkg.sha512"
+      "sha512": "sha512-LctQUK1k5660to/b35oKz0mRuT4sBwLlZYQQlxKlbj0SYHWqaUjTGZuHmPO2G+AwhbxD1g9QWfaxfhsprBQO0A==",
+      "path": "ocelot.cache.cachemanager/17.0.1",
+      "hashPath": "ocelot.cache.cachemanager.17.0.1.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
       "type": "package",

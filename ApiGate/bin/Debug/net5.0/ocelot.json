@@ -832,11 +832,11 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/car/create-car",
+      "UpstreamPathTemplate": "/api/carstatistic-car",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
-      "DownstreamPathTemplate": "/api/carstatistic-car",
+      "DownstreamPathTemplate": "/api/car/create-car",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
