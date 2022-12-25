@@ -24,7 +24,8 @@ namespace Gate1
                     x => x.WithDictionaryHandle()
                 );
             services.AddCors(options => {
-                options.AddPolicy("CORSPolicy", builder => builder.AllowAnyMethod().AllowAnyHeader().AllowCredentials().SetIsOriginAllowed((hosts) => true));
+                options.AddPolicy("CORSPolicy",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
         }
 
@@ -38,12 +39,7 @@ namespace Gate1
 
             app.UseRouting();
 
-            app.UseCors(x => x
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowAnyOrigin()
-               .SetIsOriginAllowed(origin => true) // allow any origin
-               .AllowCredentials());
+            app.UseCors("CORSPolicy");
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseAuthorization();
