@@ -41,6 +41,7 @@ namespace Gate1
             app.UseCors(x => x
                .AllowAnyMethod()
                .AllowAnyHeader()
+               .AllowAnyOrigin()
                .SetIsOriginAllowed(origin => true) // allow any origin
                .AllowCredentials());
             app.UseStaticFiles();
