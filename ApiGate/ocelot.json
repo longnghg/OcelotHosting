@@ -1765,7 +1765,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/Promotion/select-box-promotion",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "get" ]
     },
     //END PROMOTION
 
