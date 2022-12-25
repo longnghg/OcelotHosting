@@ -60,7 +60,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-statistic-tourbooking-by-date",
+      "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-date",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -73,7 +73,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-statistic-total-tourbooking-by-date",
+      "UpstreamPathTemplate": "/api/Statistic/list-statistic-total-tourbooking-by-date",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -86,7 +86,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-statistic-tourbooking-by-year",
+      "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-year",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -99,7 +99,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-statistic-tourbooking-by-month",
+      "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-month",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -112,7 +112,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-statistic-tourbooking-by-week",
+      "UpstreamPathTemplate": "/api/Statistic/list-statistic-tourbooking-by-week",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -125,7 +125,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/list-week-by-year",
+      "UpstreamPathTemplate": "/api/Statistic/list-week-by-year",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -137,7 +137,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/saving-current-week",
+      "UpstreamPathTemplate": "/api/Statistic/saving-current-week",
       "UpstreamHttpMethod": [ "Post" ]
     },
     {
@@ -149,7 +149,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/Notification/saving-tourbooking-finished",
+      "UpstreamPathTemplate": "/api/Statistic/saving-tourbooking-finished",
       "UpstreamHttpMethod": [ "Post" ]
     },
     //PAYMENT
@@ -3064,6 +3064,6 @@
 
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:44305"
+    "BaseUrl": "https://gatewayapitravelrover.azurewebsites.net"
   }
 }
