@@ -2883,6 +2883,22 @@
       "UpstreamHttpMethod": [ "Get" ]
     },
 
+
+    {
+      "DownstreamPathTemplate": "/api/voucher/search-voucher",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "rovermanagerservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/voucher/search-voucher",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+
+
     {
       "DownstreamPathTemplate": "/api/Voucher/create-voucher",
       "DownstreamScheme": "https",
