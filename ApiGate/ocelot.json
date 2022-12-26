@@ -386,7 +386,18 @@
       "UpstreamPathTemplate": "/api/TourBooking/search-TourBooking",
       "UpstreamHttpMethod": [ "Post" ]
     },
-
+    {
+      "DownstreamPathTemplate": "/api/TourBooking/send-bill",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "roverbookingservice.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TourBooking/send-bill",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
     {
       "DownstreamPathTemplate": "/api/TourBooking/update-tourBooking-status",
       "DownstreamScheme": "https",
