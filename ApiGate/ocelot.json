@@ -727,7 +727,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/customer/detail-customer",
+      "UpstreamPathTemplate": "/api/customer/list-history-booking-bycustomer",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -740,7 +740,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/customer/list-history-booking-bycustomer",
+      "UpstreamPathTemplate": "/api/customer/detail-customer",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
@@ -753,7 +753,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/customer/cus-vote-rating",
+      "UpstreamPathTemplate": "/api/customer/update-customer",
       "UpstreamHttpMethod": [ "Post" ]
     },
 
@@ -766,7 +766,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/customer/update-customer",
+      "UpstreamPathTemplate": "/api/customer/cus-vote-rating",
       "UpstreamHttpMethod": [ "Put" ]
     },
 
